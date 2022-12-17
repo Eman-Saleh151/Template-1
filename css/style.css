@@ -816,3 +816,329 @@ a {
 .footer p span{
     color: #6195ff;
 }
+
+/*                    media                  */
+
+@media (min-width: 1200px) and (max-width: 1400px) { 
+    .header .nav > li >a { 
+        padding: 30px 10px; 
+    }
+    .offer-item-title { 
+        font-size: 1.4rem;
+    }
+    .testmonail-item {
+        width: 45%;
+        margin-left: 30px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){ 
+    .header .nav > li >a {
+        padding: 30px 8px;
+        font-size: 12px;
+    }   
+    .home .title {
+        font-size: 2.9rem;
+    }
+    .about-item.mg {
+        margin: 0 3px;
+    }
+    .about-item {
+        width: 33%;
+    }
+    .offer-item-title { 
+        font-size: 1.4rem;
+    }
+    .portfolio-item {
+        width: 40%;
+        margin: 15px 39px !important;   
+        
+    }
+    .offer-item {
+        width: 40%;
+        margin: 15px 39px !important;   
+        
+    }
+    .pricing-item.mg {
+        margin: 0 3px;
+    }
+    .pricing-item {
+        width: 33%;
+    }
+    .testmonail-item {
+        width: 47%;
+        margin-left: 18px;
+    }
+    .blog-item {
+        float: left;
+        width: 32%;
+    }
+    .blog-item.mg {
+        margin: 0 10px;
+    }
+    .blog-list li {
+         display: block;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {  
+	
+    .header .logo {
+        width: 50%;
+        float: none; 
+    }
+    .header .nav {
+        width: 100%; 
+        float: none;
+        list-style: none;
+        text-align: left; 
+    }
+    .header .nav > li >a {
+        padding: 30px 6px;    
+    }
+    .header {
+        position: absolute;
+    }
+    
+    .home .title {
+        font-size: 2.2rem;
+    }
+    .home-desc {
+        line-height: 1.4;
+        font-size: 15px;
+    }
+
+    .about-item {
+        float: none;
+        width: 70%;
+        margin: 30px auto !important;
+    }
+    .offer-item {
+        width: 48%;
+        margin: 30px 6px !important;
+    }
+    .portfolio-item {
+        float: left;
+        width: 48%;
+        margin: 4px 6px !important;
+    }
+    .service-item{
+        float: none;
+        width: 70%;
+    }
+    .service-item-right{
+        margin-left: 35%;
+    }
+    .number-items{
+        padding: 50px 0;
+    }
+     .testmonail-item , .team-item , .blog-item ,.pricing-item{
+        float: none;
+        width: 70%;
+        margin: 50px auto !important;
+    }
+    .number-items .item {
+        width: 49%;
+        margin: 67px 1px !important;
+    }
+    .numbers{
+        height: 585px;
+    }
+    .testmonail {
+        height: 744px;
+    }
+    .contact-form {
+         width: 100%; 
+    }
+    .form-inputs input {
+        width: 100%;
+        height: 30px;
+        display: block;
+        width: 100%;
+        margin: 20px 0 0 0 !important;
+    }
+    .contact-form button {
+        padding: 20px 23px;
+        font-size: 15px
+    }
+    .offer-item-title {
+        font-size: 1.4rem;
+    }
+    
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){  
+    .header .logo {
+        width: 50%;
+        float: none; 
+    }
+    .header .nav {
+        width: 100%; 
+        float: none;
+        list-style: none;
+        text-align: left; 
+    }
+    .header .nav > li >a {
+        padding: 30px 9px;
+        font-size: 11px;
+    }
+    .header {
+        position: absolute;
+    }
+    
+    .home .title {
+        font-size: 1.7rem;
+    }
+    .home-desc {
+        line-height: 1.2;
+        font-size: 14px;
+    }
+    .home .btn {
+        display: block;
+        margin: 10px auto !important;
+    }
+    .about-item ,.offer-item {
+        float: none;
+        width: 70%;
+        margin: 30px auto !important;
+    }
+    .portfolio-item {
+        float: none;
+        width: 70%;
+        margin: 4px auto !important;
+    }
+    .service-item{
+        float: none;
+        width: 70%;
+    }
+    .service-item-right{
+        margin-left: 35%;
+    }
+    .number-items{
+        padding: 50px 0;
+    }
+    .number-items .item , .testmonail-item , .team-item , .blog-item ,.pricing-item{
+        float: none;
+        width: 70%;
+        margin: 50px auto !important;
+    }
+    .numbers{
+        height: 822px;
+    }
+    .testmonail {
+        height: 744px;
+    }
+    .contact-form {
+         width: 100%; 
+    }
+    .form-inputs input {
+        width: 100%;
+        height: 30px;
+        display: block;
+        width: 100%;
+        margin: 20px 0 0 0 !important;
+    }
+    .contact-form button {
+        padding: 20px 23px;
+        font-size: 15px
+    }
+
+}
+@media (max-width: 575px){
+    .header .logo {
+        width: 88%;
+        float: none; 
+    }
+    .header .nav {
+        width: 100%; 
+        float: none;
+        list-style: none;
+        text-align: left; 
+    }
+    .header .nav > li >a {
+        padding: 30px 1px;  
+        font-size: 9px;  
+    }
+    .header {
+        position: absolute;
+    }
+    
+    .home .title {
+        font-size: 2rem;
+    }
+    .home-desc {
+        line-height: 2;
+        font-size: 10px;
+    }
+    .home .btn {
+        display: block;
+        margin: 10px auto !important;
+    }
+    .section-header .section-title {
+        font-size: 33px;
+    }
+    .about-item ,.offer-item {
+        float: none;
+        width: 100%;
+        margin: 30px auto !important;
+    }
+    .portfolio-item {
+        float: none;
+        width: 100%;
+        margin: 4px 0px !important;
+    }
+    .service-item{
+        float: none;
+        width: 100%;
+        margin: 20px auto !important;
+    }
+    .service-list li {
+        margin-bottom: 29px;
+        text-align: center;
+    }
+    .service-item-right{
+        margin-left: 35%;
+    }
+    .number-items{
+        padding: 50px 0;
+    }
+    .number-items .item , .testmonail-item , .team-item , .blog-item ,.pricing-item{
+        float: none;
+        width: 100%;
+        margin: 50px auto !important;
+    }
+    .numbers{
+        height: 822px;
+    }
+    .testmonail {
+        height: 850px;
+    }
+    .contact-item {
+        width: 100%;
+        text-align: center;
+        float: none; 
+        margin: 34px auto !important;
+    }
+    .contact-form {
+         width: 100%; 
+    }
+    .form-inputs input {
+        width: 100%;
+        height: 30px;
+        display: block;
+        width: 100%;
+        margin: 20px 0 0 0 !important;
+    }
+    .contact-form button {
+        padding: 20px 23px;
+        font-size: 15px
+    }
+    
+}
+
+
+
+
